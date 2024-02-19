@@ -1,0 +1,35 @@
+
+  .board {
+    display: flex;
+    width: 500px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cell {
+    background-color: rgb(109, 109, 109);
+    border: 4px solid #242424; 
+    border-radius: 12px;
+    height: 120px;
+    width: 140px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    font-size: 50px;
+    font-weight: 900;
+    transition: background-color 0.3s; 
+  }
+
+  .cell:hover{
+    background-color: rgb(82, 82, 82);
+  }
+
+  .reset{
+    margin-top: 20px;
+  }
+
+  .winner{
+    color: #ffff00;
+  }
